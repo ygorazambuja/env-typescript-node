@@ -1,11 +1,11 @@
-#Ambiente de desenvolvimento Typescript + NodeJS :blush:
+# Typescript + NodeJS Development Enviroment :blush:
 
-#### Referencias:
+#### References:
 https://github.com/i0natan/nodebestpractices
 https://github.com/Microsoft/tsdoc
 
 
-## Para iniciar o projeto .
+## To start the project. :smirk:
 
 git clone https://github.com/ygorazambuja/env-typescript-node new-project \
 cd new-project \
@@ -14,7 +14,7 @@ cd new-project \
 git init 
 
 
-### Configurações basicas para o Visual Studio Code
+### Basic configuration for VSCode :satisfied:
 
 ```json
 {
@@ -42,8 +42,7 @@ git init
   ]
 }
 ```
-
-####Dependencias de Desenvolvimento.
+#### Dev Dependencies. :smile:
 
 ```json
 {
