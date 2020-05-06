@@ -1,19 +1,20 @@
-Ambiente de desenvolvimento Typescript + NodeJS
+#Ambiente de desenvolvimento Typescript + NodeJS :blush:
 
+#### Referencias:
 https://github.com/i0natan/nodebestpractices
 https://github.com/Microsoft/tsdoc
 
 
+## Para iniciar o projeto .
+
+git clone https://github.com/ygorazambuja/env-typescript-node new-project \
+cd new-project \
+**Windows**: Remove-Item .\.git\ -Recurse -Force \
+**Linux**: rm -rf .git \
+git init 
 
 
-git clone https://github.com/ygorazambuja/env-typescript-node new-project
-cd new-project
-Windows: Remove-Item .\.git\ -Recurse -Force
-Linux: rm -rf .git
-git init
-
-
-Configurações basicas para o Visual Studio Code
+### Configurações basicas para o Visual Studio Code
 
 ```json
 {
@@ -42,7 +43,7 @@ Configurações basicas para o Visual Studio Code
 }
 ```
 
-Dependencias de Desenvolvimento.
+####Dependencias de Desenvolvimento.
 
 ```json
 {
