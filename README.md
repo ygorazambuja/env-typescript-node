@@ -3,6 +3,16 @@ Ambiente de desenvolvimento Typescript + NodeJS
 https://github.com/i0natan/nodebestpractices
 https://github.com/Microsoft/tsdoc
 
+
+
+
+git clone https://github.com/ygorazambuja/env-typescript-node new-project
+cd new-project
+Windows: Remove-Item .\.git\ -Recurse -Force
+Linux: rm -rf .git
+git init
+
+
 Configurações basicas para o Visual Studio Code
 
 ```json
@@ -37,20 +47,21 @@ Dependencias de Desenvolvimento.
 ```json
 {
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.5.0",
-    "@typescript-eslint/parser": "^1.5.0",
-    "eslint": "^5.15.3",
-    "eslint-config-prettier": "^4.1.0",
-    "eslint-config-standard": "^12.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "nodemon": "^1.18.10",
-    "prettier": "^1.16.4",
+    "husky": "^4.2.5",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.5",
     "sucrase": "^3.10.0",
-    "typescript": "^3.3.4000"
+    "typescript": "^3.8.3"
   }
 }
 ```
